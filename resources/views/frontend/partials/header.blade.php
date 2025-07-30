@@ -92,13 +92,24 @@
                                 <div class="register">
                                     <ul class="flex align-center">
                                         <li>
-                                            <!-- <a href="login.html" class="flex-three">
-                                                <img src="{{ asset('public/frontend') }}/images/page/avata.jpg" alt="image">
-                                            </a> -->
-                                            <a href="login.html"><i class="icon-user-1-1"></i>
-                                                <span>Sign in</span>
-                                            </a>
+                                            @if (Route::has('login'))
+                                                @auth
+                                                    <a href="{{ url('/dashboard') }}" class="flex-three">
+                                                        <img src="{{ asset('public/frontend/images/page/avata.jpg') }}" alt="User Avatar" class="rounded-circle" width="30" height="30">
+                                                    </a>
+                                                @else
+                                                    <a href="{{ route('login') }}">
+                                                        <i class="icon-user-1-1"></i>
+                                                        <span>Sign in</span>
+                                                    </a>
+
+                                                    @if (Route::has('register'))
+                                                        {{-- <a href="{{ route('register') }}">Register</a> --}}
+                                                    @endif
+                                                @endauth
+                                            @endif
                                         </li>
+
                                     </ul>
                                 </div>
                             </div>

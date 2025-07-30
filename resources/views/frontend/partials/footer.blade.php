@@ -107,7 +107,7 @@
 
         <div class="row footer-bottom">
             <div class="col-md-6">
-                <p class="copy-right">Copyright © 2024 by <a href="#" class="text-main">Themesflat.</a> All Rights Reserved</p>
+                <p class="copy-right">Copyright © 2025 by <a href="#" class="text-main">WebKutir</a> All Rights Reserved</p>
             </div>
             <div class="col-md-6">
                 <ul class="social flex-six">

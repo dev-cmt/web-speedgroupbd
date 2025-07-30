@@ -4,38 +4,38 @@
         {{-- Breadcrumb content --}}
     @endsection
     @section('content')
-        
+
 
         <!-- Widget Slider -->
         <section class="slider relative">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    
+
                     <!--Item Slide 1-->
                     <div class="slider-home1 relative overflow-hidden swiper-slide">
                         <div class="silider-image">
                             <img src="{{ asset('public/frontend') }}/images/slide/slide1.jpg" alt="Image" class="image-slide">
                             <img src="{{ asset('public/frontend') }}/images/slide/mask-slide.png" alt="Image" class="mask-slide">
                             <img src="{{ asset('public/frontend') }}/images/slide/mask-fly.png" alt="Image" class="mask-flane">
-                            <!-- <div class="booking-title tf-anime-rorate">
+                            <div class="booking-title tf-anime-rorate">
                                 <p class="booking">Booking</p>
                                 <span></span>
-                            </div> -->
-                            <div class="booking-img">
-                                <img src="{{ asset('public') }}/images/speed-tours.png" alt="">
                             </div>
+                            {{-- <div class="booking-img">
+                                <img src="{{ asset('public') }}/images/speed-tours.png" alt="">
+                            </div> --}}
                         </div>
                         <div class="slider-content">
                             <div class="tf-container">
                                 <div class="row">
                                     <div class="col-lg-8">
                                         <span class="sub-title text-main font-yes fs-28-46 fadeInDown wow">Explore the world</span>
-                                        <h1 class="title-slide text-white mb-32 fadeInDown wow">Speed 
+                                        <h1 class="title-slide text-white mb-32 fadeInDown wow">Speed
                                             <span class="animationtext clip text-main">
                                                 <span class="cd-words-wrapper">
                                                     <span class="item-text is-visible">Tours</span>
                                                     <span class="item-text is-hidden">Tours</span>
-                                                </span>                                          
+                                                </span>
                                             </span>
                                         </h1>
                                         <p class="des text-white mb-45 fadeInDown wow">
@@ -61,13 +61,13 @@
                             <img src="{{ asset('public/frontend') }}/images/slide/slide1.jpg" alt="Image" class="image-slide">
                             <img src="{{ asset('public/frontend') }}/images/slide/mask-slide.png" alt="Image" class="mask-slide">
                             <img src="{{ asset('public/frontend') }}/images/slide/mask-fly.png" alt="Image" class="mask-flane">
-                            <!-- <div class="booking-title tf-anime-rorate">
+                            <div class="booking-title tf-anime-rorate">
                                 <p class="booking">Booking</p>
                                 <span></span>
-                            </div> -->
-                            <div class="booking-img">
-                                <img src="{{ asset('public') }}/images/mm-worldwide.png" alt="">
                             </div>
+                            <!-- <div class="booking-img">
+                                <img src="{{ asset('public') }}/images/mm-worldwide.png" alt="">
+                            </div> -->
                         </div>
                         <div class="slider-content">
                             <div class="tf-container">
@@ -79,7 +79,7 @@
                                                 <span class="cd-words-wrapper">
                                                     <span class="item-text is-visible">BANGLADESH</span>
                                                     <span class="item-text is-hidden">BANGLADESH</span>
-                                                </span>                                          
+                                                </span>
                                             </span>
                                         </h1>
                                         <p class="des text-white mb-45 fadeInDown wow">
@@ -105,13 +105,13 @@
                             <img src="{{ asset('public/frontend') }}/images/slide/slide1.jpg" alt="Image" class="image-slide">
                             <img src="{{ asset('public/frontend') }}/images/slide/mask-slide.png" alt="Image" class="mask-slide">
                             <img src="{{ asset('public/frontend') }}/images/slide/mask-fly.png" alt="Image" class="mask-flane">
-                            <!-- <div class="booking-title tf-anime-rorate">
+                            <div class="booking-title tf-anime-rorate">
                                 <p class="booking">Booking</p>
                                 <span></span>
-                            </div> -->
-                            <div class="booking-img">
-                                <img src="{{ asset('public') }}/images/fly-more.png" alt="">
                             </div>
+                            <!-- <div class="booking-img">
+                                <img src="{{ asset('public') }}/images/fly-more.png" alt="">
+                            </div> -->
                         </div>
                         <div class="slider-content">
                             <div class="tf-container">
@@ -123,7 +123,7 @@
                                                 <span class="cd-words-wrapper">
                                                     <span class="item-text is-visible">More</span>
                                                     <span class="item-text is-hidden">More</span>
-                                                </span>                                          
+                                                </span>
                                             </span>
                                         </h1>
                                         <p class="des text-white mb-45 fadeInDown wow">

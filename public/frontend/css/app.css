@@ -35,7 +35,7 @@
     * Gallery
     * widget Image Box
     * Faq
-    * Count Down 
+    * Count Down
     * slider
     * Button
     * Tab
@@ -710,7 +710,7 @@
   display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Mobile Menu
@@ -1173,7 +1173,7 @@
   color: #4DA528;
 }
 
-/* button 
+/* button
 --------------------------------------------------*/
 .button-link {
   font-size: 14px;
@@ -5537,8 +5537,8 @@
 .slider-home1 .slider-content {
   position: relative;
   z-index: 3;
-  padding-top: 144px;
-  padding-bottom: 202px;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 .slider-home1 .slider-content .title-slide {
   text-transform: uppercase;
@@ -6337,7 +6337,7 @@
     * Gallery
     * widget Image Box
     * Faq
-    * Count Down 
+    * Count Down
 */
 /* Scroll Top
 
@@ -6523,7 +6523,7 @@
   color: #FFFFFF;
 }
 
-/*Social 
+/*Social
 -------------------------------------------------------------- */
 .social {
   display: flex;
@@ -6551,7 +6551,7 @@
   background-color: rgba(255, 255, 255, 0.07);
 }
 
-/* price-range 
+/* price-range
 -------------------------------------------------------------- */
 .noUi-target,
 .noUi-target * {
