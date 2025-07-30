@@ -109,7 +109,7 @@
                                 <p class="booking">Booking</p>
                                 <span></span>
                             </div>
-                            <!-- <div class="booking-img">
+                             <div class="booking-img">
                                 <img src="{{ asset('public') }}/images/fly-more.png" alt="">
                             </div> -->
                         </div>
