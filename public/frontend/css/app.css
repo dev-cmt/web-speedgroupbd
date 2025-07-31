@@ -280,7 +280,7 @@
 .main-header .logo-box .logo img {
   display: inline-block;
   max-width: 100%;
-  width: 128px;
+  width: 112px;
   height: auto;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -1362,7 +1362,7 @@
 /*----------------------breadcumb--------------------*/
 .breadcumb-section {
   padding: 137px 0px 135px 0px;
-  background-image: url(../../assets/images/page/breakcrumb.jpg);
+  background-image: url(../../images/pages/breakcrumb.jpg);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -1837,7 +1837,7 @@
 .video-h4-widget {
   padding-top: 168px;
   padding-bottom: 65px;
-  background-image: url(../../assets/images/page/video1.jpg);
+  background-image: url(../../images/pages/video1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3982,7 +3982,7 @@
 }
 .contact-us .contact-us-map .map,
 .contact-us .contact-us-map #map {
-  height: 559px;
+  height: 415px;
 }
 
 /*----------------------Team--------------------*/
@@ -6181,7 +6181,7 @@
 }
 
 #form-contact-us .input-wrap:not(:last-child) {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 #form-contact-us .input-wrap i {
   position: absolute;
@@ -7894,7 +7894,7 @@
   .clip-text {
     color: transparent;
     -webkit-background-clip: text;
-    background-image: url(../../assets/images/page/clip-text.jpg);
+    background-image: url(../../images/pages/clip-text.jpg);
     background-size: cover;
     background-position: center;
   }

@@ -1,3 +1,24 @@
+<section class="mb--93">
+    <div class="tf-container">
+        <div class="callt-to-action flex-two">
+            <div class="callt-to-action-content flex-three">
+                <div class="image">
+                    <img src="{{ asset('public/frontend') }}/images/page/ready.png" alt="Image">
+                </div>
+                <div class="content">
+                    <h2 class="title-call">Ready to adventure and enjoy natural</h2>
+                    <p class="des">Lorem ipsum dolor sit amet, consectetur notted adipisicin</p>
+                </div>
+            </div>
+            <img src="{{ asset('public/frontend') }}/images/page/vector4.png" alt="" class="shape-ab">
+            <div class="callt-to-action-button">
+                <a href="#" class="get-call">Let,s get started</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 
 <footer class="footer footer-style1">
     <div class="tf-container">

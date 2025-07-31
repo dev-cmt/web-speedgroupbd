@@ -62,26 +62,50 @@
                                     <div class="navbar-collapse collapse clearfix"
                                         id="navbarSupportedContent">
                                         <ul class="navigation clearfix">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="index.html">About</a></li>
+                                            <li><a href="{{url('/')}}">Home</a></li>
+                                            <li><a href="{{route('about-us')}}">About</a></li>
                                             <li class="dropdown2">
                                                 <a href="#">Package</a>
                                                 <ul>
-                                                    <li><a href="tour-archieve.html">Nepal</a></li>
-                                                    <li><a href="tour-archieve.html">Maldives</a></li>
-                                                    <li><a href="tour-archieve.html">Srilanka</a></li>
-                                                    <li><a href="tour-archieve.html">Malaysia</a></li>
-                                                    <li><a href="tour-archieve.html">Singapore</a></li>
-                                                    <li><a href="tour-archieve.html">Thailand</a></li>
-                                                    <li><a href="tour-archieve.html">Combodia</a></li>
-                                                    <li><a href="tour-archieve.html">Indonesia</a></li>
-                                                    <li><a href="tour-archieve.html">Egypt</a></li>
-                                                    <li><a href="tour-archieve.html">China</a></li>
+                                                    <li class="dropdown2">
+                                                        <a href="#">Asia</a>
+                                                        <ul>
+                                                            <li><a href="{{route('package')}}">Nepal</a></li>
+                                                            <li><a href="{{route('package')}}">Maldives</a></li>
+                                                            <li><a href="{{route('package')}}">Srilanka</a></li>
+                                                            <li><a href="{{route('package')}}">Malaysia</a></li>
+                                                            <li><a href="{{route('package')}}">Singapore</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown2">
+                                                        <a href="#">Europe</a>
+                                                        <ul>
+                                                            <li><a href="{{route('package')}}">Finland</a></li>
+                                                            <li><a href="{{route('package')}}">France</a></li>
+                                                            <li><a href="{{route('package')}}">Germany</a></li>
+                                                            <li><a href="{{route('package')}}">Italy</a></li>
+                                                            <li><a href="{{route('package')}}">Malta</a></li>
+                                                            <li><a href="{{route('package')}}">Portugal</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown2">
+                                                        <a href="#">Middle East</a>
+                                                        <ul>
+                                                            <li><a href="{{route('package')}}">Bahrain</a></li>
+                                                            <li><a href="{{route('package')}}">Iran</a></li>
+                                                            <li><a href="{{route('package')}}">Jordan</a></li>
+                                                            <li><a href="{{route('package')}}">Kuwait</a></li>
+                                                            <li><a href="{{route('package')}}">Oman</a></li>
+                                                           <li><a href="{{route('package')}}">Qatar</a></li>
+                                                        </ul>
+                                                    </li>
+
                                                 </ul>
                                             </li>
-                                            <li><a href="tour-single.html">Umrah</a></li>
-                                            <li><a href="tour-single.html">Hajj</a></li>
-                                            <li><a href="contact-us.html">Contact</a></li>
+                                            <li><a href="{{route('package')}}">Bangladesh</a></li>
+                                            <li><a href="{{route('package')}}">Umrah</a></li>
+                                            <li><a href="{{route('package')}}">Hajj</a></li>
+                                            <li><a href="{{route('contact-us')}}">Contact</a></li>
                                             <li><a href="#">Webmail</a></li>
                                         </ul>
                                     </div>
